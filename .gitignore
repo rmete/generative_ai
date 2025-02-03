@@ -1,0 +1,55 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.bak
+
+# Ignore logs and temp files
+logs/
+*.log
+*.out
+*.err
+*.pid
+*.seed
+
+# Ignore environment and package manager files
+.env
+.venv/
+Pipfile
+Pipfile.lock
+poetry.lock
+*.envrc
+
+# Ignore any custom index storage folders
+notebooks/RAG-LlamaIndex-LangChain-DeepSeek/custom_index_storage/
+notebooks/RAG-LlamaIndex-LangChain-DeepSeek/mistral_index_storage/
+
+# Ignore all hidden system files (macOS and Linux)
+.*~
+*.swp
+*.swo
+*.swn
+*.bak
+*~
+
+# Ignore compiled code
+*.o
+*.so
+*.a
+*.out
+*.class
+
+# Ignore Jupyter Notebook metadata (optional)
+.ipynb_metadata.json
